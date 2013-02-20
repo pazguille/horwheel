@@ -1,0 +1,20 @@
+{
+  "name": "horwheel",
+  "repo": "pazguille/horwheel",
+  "description": "Horizontal scrolling easily.",
+  "version": "0.0.1",
+  "author": "Guille Paz <guille87paz@gmail.com>",
+  "twitter": "@pazguille",
+  "keywords": [
+    "wheel",
+    "mousewheel",
+    "Horizontal",
+    "scroll"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
