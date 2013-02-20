@@ -1,0 +1,4 @@
+horwheel
+========
+
+Horizontal scrolling easily
