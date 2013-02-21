@@ -1,14 +1,14 @@
 {
   "name": "horwheel",
   "repo": "pazguille/horwheel",
-  "description": "Horizontal scrolling easily.",
-  "version": "0.0.1",
+  "description": "Scroll horizontally with mouse wheel",
+  "version": "0.0.2",
   "author": "Guille Paz <guille87paz@gmail.com>",
   "twitter": "@pazguille",
   "keywords": [
     "wheel",
     "mousewheel",
-    "Horizontal",
+    "horizontal",
     "scroll"
   ],
   "dependencies": {},

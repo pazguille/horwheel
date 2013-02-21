@@ -1,6 +1,6 @@
 # Horwheel (WIP)
 
-Horizontal scrolling easily
+Scroll horizontally with mouse wheel
 
 ## Installation
 
