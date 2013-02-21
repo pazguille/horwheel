@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Horwheel Component</title>
+        <style>
+            /* Specific element */
+            #view {
+                background-color: red;
+                padding: 5px
+            }
+
+            #content {
+                width: 5000px;
+                height: 500px;
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="view">
+            <div id="content"></div>
+        </div>
+
+        <script src="../build/build.js"></script>
+        <script>
+            var view = document.getElementById('view'),
+                horwheel = require('horwheel');
+
+            horwheel(view);
+        </script>
+    </body>
+</html>
