@@ -1,4 +1,4 @@
-# Horwheel (WIP)
+# Horwheel
 
 Scroll horizontally with mouse wheel
 
@@ -9,17 +9,28 @@ Scroll horizontally with mouse wheel
 See: [https://github.com/component/component](https://github.com/component/component)
 
 
-## Standalone
-
-
 ## How-to
+```js
+var horwheel = require('horwheel');
 
+horwheel(wrapper);
+```
 
-## API
+## Standalone
+First, add standalone file:
+```html
+<script src="../standalone/horwheel.js"></script>
+```
 
+Then, define your wrapper:
+```js
+var wrapper = document.querySelector('#wrapper');
+```
 
-### Events
-
+Finally, execute horwheel function with wrapper parameter:
+```js
+horwheel(wrapper);
+```
 
 ## Contact
 - Guille Paz (Frontend developer - JavaScript developer | Web standards lover)
