@@ -2,17 +2,22 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
+        <meta name="HandheldFriendly" content="True">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta http-equiv="cleartype" content="on">
         <title>Horwheel Component</title>
         <style>
-            /* Specific element */
             #view {
                 background-color: red;
-                padding: 5px
+                padding: 5px;
+                -webkit-overflow-scrolling: touch;
+                overflow-scrolling: touch;
+                overflow: 'auto';
             }
 
             #content {
                 width: 5000px;
-                height: 500px;
+                height: 320px;
                 background-color: blue;
             }
         </style>

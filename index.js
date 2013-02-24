@@ -22,7 +22,7 @@ function horwheel(el) {
     if (el === undefined) {
         return;
     }
-    el.style.overflow = 'auto';
+
     el[bind](wheel, horizontalWheel, false);
 }
 
