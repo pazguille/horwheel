@@ -9,7 +9,7 @@ var bind = (window.addEventListener !== undefined) ? 'addEventListener' : 'attac
 function horizontalWheel(eve) {
     eve = eve || window.eve;
     eve.preventDefault();
-    // JSlint: Strict violation. Because 'this' in an anonymous function is undefined, but this function will receive an DOM element as context
+    // JSlint: Strict violation. Because 'this' in an anonymous function is undefined, but this function will receive a DOM element as context
     this.scrollLeft += (eve.deltaY !== undefined) ? eve.deltaY :
                         (eve.detail !== undefined && eve.detail !== 0) ? eve.detail :
                             -eve.wheelDelta;
