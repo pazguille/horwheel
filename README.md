@@ -33,7 +33,7 @@ Finally, execute horwheel function with wrapper parameter:
 horwheel(wrapper);
 ```
 
-## Standalone
+### Standalone
 Also, you can use it without components.
 First, add standalone file:
 ```html
