@@ -6,14 +6,11 @@
      */
     var bind = (window.addEventListener !== undefined) ? 'addEventListener' : 'attachEvent',
         wheel = (window.onwheel !== undefined) ? 'wheel' :
-                    (window.attachEvent) ? 'onmousewheel' :
-                        (window.onmousewheel !== undefined) ? 'mousewheel' : 'DOMMouseScroll';
+                    (window.onmousewheel !== undefined) ? 'mousewheel' :
+                        (window.attachEvent) ? 'onmousewheel' : 'DOMMouseScroll';
 
-    function horizontalWheel(eve) {
-        eve = eve || window.eve;
-        eve.preventDefault();
-        // JSlint: Strict violation. Because 'this' in an anonymous function is undefined, but this function will receive an DOM element as context
-        this.scrollLeft += (eve.deltaY !== undefined) ? eve.deltaY :
+    function horizontalWheel(eve, el) {
+        el.scrollLeft += (eve.deltaY !== undefined) ? eve.deltaY :
                             (eve.detail !== undefined && eve.detail !== 0) ? eve.detail :
                                 -eve.wheelDelta;
     }
@@ -26,7 +23,14 @@
             return;
         }
 
-        el[bind](wheel, horizontalWheel, false);
+        document[bind](wheel, function (eve) {
+            eve = eve || window.eve;
+            if (eve.preventDefault) {
+                eve.preventDefault();
+            }
+            horizontalWheel(eve, el);
+            return false;
+        }, false);
     }
 
     /**
