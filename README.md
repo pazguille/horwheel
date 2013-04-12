@@ -6,7 +6,7 @@ It's cross-browser compatible:
 - Chrome (OS X, Windows)
 - Firefox (OS X, Windows)
 - Opera (OS X, Windows)
-- Safari (OS X, Windows)g
+- Safari (OS X, Windows)
 - IE9
 - IE8
 - IE7
