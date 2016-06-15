@@ -1,0 +1,24 @@
+{
+  "name": "horwheel",
+  "main": "dist/horwheel.js",
+  "version": "1.0.0",
+  "homepage": "http://pazguille.github.io/horwheel/",
+  "authors": [
+    "Guille Paz <guille87paz@gmail.com>"
+  ],
+  "description": "Scroll horizontally with mouse wheel",
+  "keywords": [
+    "wheel",
+    "mousewheel",
+    "horizontal",
+    "scroll"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

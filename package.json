@@ -1,0 +1,32 @@
+{
+  "name": "horwheel",
+  "version": "1.0.0",
+  "description": "Scroll horizontally with mouse wheel",
+  "author": "@pazguille <guille87paz@gmail.com>",
+  "scripts": {
+    "dist": "node_modules/.bin/gulp",
+    "test": "npm run dist && node_modules/.bin/_mocha"
+  },
+  "repository": "git@github.com:pazguille/aload.git",
+  "dependencies": {},
+  "devDependencies": {
+    "better-assert": "1.0.1",
+    "gulp": "3.6.2",
+    "gulp-footer": "1.0.5",
+    "gulp-header": "1.0.5",
+    "gulp-rename": "1.2.0",
+    "gulp-replace": "0.4.0",
+    "gulp-uglify": "0.3.1",
+    "jsdom": "3.1.1",
+    "mkdirp": "0.3.5",
+    "mocha": "2.1.0"
+  },
+  "keywords": [
+    "wheel",
+    "mousewheel",
+    "horizontal",
+    "scroll"
+  ],
+  "license": "MIT",
+  "main": "index.js"
+}

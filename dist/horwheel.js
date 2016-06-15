@@ -1,3 +1,10 @@
+/*!
+ * horwheel - v1.0.0
+ *
+ * Copyright (c) 2016, @pazguille <guille87paz@gmail.com>
+ * Released under the MIT license.
+ */
+(function(window) {
 'use strict';
 
 /**
@@ -39,4 +46,17 @@ function horwheel(node) {
 /**
  * Expose horwheel
  */
-module.exports = horwheel;
+// AMD
+if (typeof window.define === 'function' && window.define.amd !== undefined) {
+  window.define('horwheel', [], function () {
+    return horwheel;
+  });
+// CommonJS
+} else if (typeof module !== 'undefined' && module.exports !== undefined) {
+  module.exports = horwheel;
+// Browser
+} else {
+  window.horwheel = horwheel;
+};
+
+}(this));
