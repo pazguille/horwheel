@@ -7,9 +7,9 @@
   $ npm install horwheel
 
 
-Also is available on cdnjs
+Also is available on cdnjs (coming soon)
 ```html
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.0/horwheel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/horwheel/1.0.0/horwheel.min.js"></script>
 ```
 
 ## Usage
