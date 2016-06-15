@@ -4,7 +4,7 @@
 
 ## Installation
 
-  $ npm install horwheel
+    $ npm install horwheel
 
 
 Also is available on cdnjs (coming soon)
