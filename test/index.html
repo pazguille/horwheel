@@ -1,145 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="HandheldFriendly" content="True">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-        <meta http-equiv="cleartype" content="on">
-        <title>Horwheel Component</title>
-        <style>
-            body {
-                margin: 0;
-                padding: 0;
-            }
+  <head>
+    <meta charset="utf-8" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="cleartype" content="on">
+    <title>Horwheel Component</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
 
-            .wrapper-scroll {
-                -webkit-overflow-scrolling: touch;
-                overflow-scrolling: touch;
-                overflow: auto;
-                position: absolute;
-                top: 0;
-                bottom: 0;
-                left: 0;
-                right: 0;
-            }
+      .wrapper-scroll {
+        -webkit-overflow-scrolling: touch;
+        overflow-scrolling: touch;
+        overflow: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
 
-            .content {
-                width: 3862px;
-                width: -moz-max-content;
-                width: -webkit-max-content;
-                width: -o-max-content;
-                width: -ms-max-content;
-                width: max-content;
-            }
+      .content {
+        width: 3862px;
+        width: -moz-max-content;
+        width: -webkit-max-content;
+        width: -o-max-content;
+        width: -ms-max-content;
+        width: max-content;
+      }
 
-            h1 {
-                font-family: 'Segoe UI Light', 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-                font-size: 2em;
-                margin: .3em 0;
-            }
+      h1 {
+        font-family: 'Segoe UI Light', 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 2em;
+        margin: .3em 0;
+      }
 
-            .section {
-                float: left;
-                overflow: hidden;
-                width: 750px;
-                margin: 0 1.2em 0 0;
-            }
+      .section {
+        float: left;
+        overflow: hidden;
+        width: 750px;
+        margin: 0 1.2em 0 0;
+      }
 
-            .article {
-                float: left;
-                width: 15em;
-                height: 12em;
-                margin: .2em;
-                background-color: #C40C20;
-            }
+      .article {
+        float: left;
+        width: 15em;
+        height: 12em;
+        margin: .2em;
+        background-color: #C40C20;
+      }
 
-            .section:nth-child(1) .article {
-                background-color: #C40C20;
-            }
+      .section:nth-child(1) .article {
+        background-color: #C40C20;
+      }
 
-            .section:nth-child(2) .article {
-                background-color: #F9A02E;
-            }
+      .section:nth-child(2) .article {
+        background-color: #F9A02E;
+      }
 
-            .section:nth-child(3) .article {
-                background-color: #FEF20A;
-            }
-            .section:nth-child(4) .article {
-                background-color: #35A338;
-            }
-            .section:nth-child(5) .article {
-                background-color: #139CEB;
-            }
-        </style>
-    </head>
-    <body>
-        <div id="wrapper" class="wrapper-scroll">
-            <h1>Horwheel Component</h1>
-            <div class="content">
-                <div class="section">
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                </div>
-                <div class="section">
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                </div>
-                <div class="section">
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                </div>
-                <div class="section">
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                </div>
-                <div class="section">
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                    <div class="article"></div>
-                </div>
-            </div>
+      .section:nth-child(3) .article {
+        background-color: #FEF20A;
+      }
+      .section:nth-child(4) .article {
+        background-color: #35A338;
+      }
+      .section:nth-child(5) .article {
+        background-color: #139CEB;
+      }
+    </style>
+  </head>
+  <body>
+  <div id="wrapper" class="wrapper-scroll">
+      <h1>Horwheel Component</h1>
+      <div class="content">
+        <div class="section">
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
         </div>
-
-        <script src="../build/build.js"></script>
-        <script>
-            var horwheel = require('horwheel'),
-                view = document.getElementById('wrapper');
-
-            horwheel(view);
-        </script>
-    </body>
+        <div class="section">
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+        </div>
+        <div class="section">
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+        </div>
+        <div class="section">
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+        </div>
+        <div class="section">
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+          <div class="article"></div>
+        </div>
+      </div>
+    </div>
+    <script src="../dist/horwheel.js"></script>
+    <script>
+      var view = document.getElementById('wrapper');
+      horwheel(view);
+    </script>
+  </body>
 </html>

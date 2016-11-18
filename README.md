@@ -6,6 +6,8 @@
 
     $ npm install horwheel
 
+    $ bower install horwheel
+
 
 Also is available on cdnjs (coming soon)
 ```html
@@ -16,18 +18,20 @@ Also is available on cdnjs (coming soon)
 
 First, require horwheel:
 ```js
-var horwheel = require('horwheel');
+const horwheel = require('horwheel');
 ```
 
 Then, define your wrapper:
 ```js
-var wrapper = document.querySelector('#wrapper');
+const wrapper = document.querySelector('#wrapper');
 ```
 
 Finally, execute horwheel function with wrapper parameter:
 ```js
 horwheel(wrapper);
 ```
+
+## Usage
 
 ## Browser Support
 - Chrome (OS X, Windows)
@@ -38,12 +42,12 @@ horwheel(wrapper);
 - IE8
 - IE7
 
-## Made with ❤ by
+## With :heart: by
 
 - Guille Paz (Frontend developer | Web standards lover)
 - E-mail: [guille87paz@gmail.com](mailto:guille87paz@gmail.com)
 - Twitter: [@pazguille](http://twitter.com/pazguille)
-- Web: [http://pazguille.me](https://pazguille.me)
+- Web: [https://pazguille.me](https://pazguille.me)
 
 ## License
 
