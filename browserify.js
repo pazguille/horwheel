@@ -5,7 +5,7 @@ if (!fs.existsSync('./dist')) {
   fs.mkdirSync('./dist');
 }
 
-browserify({ debug: true, standalone: 'horwheel' })
+browserify({ debug: false, standalone: 'horwheel' })
   .require('./index.js', { entry: true })
   .bundle()
   .on('error', err => console.log(`Error: ${err.message}`))

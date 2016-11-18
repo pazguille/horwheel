@@ -5,7 +5,7 @@
   "author": "Guille Paz <guille87paz@gmail.com>",
   "scripts": {
     "build": "node browserify.js",
-    "dist": "npm run build && uglifyjs ./dist/horwheel.js -m -o ./dist/horwheel.min.js",
+    "dist": "npm run build && uglifyjs ./dist/horwheel.js -m -o ./dist/horwheel.min.js --source-map ./dist/horwheel.min.js.map",
     "test": "npm run build && istanbul cover _mocha",
     "lint": "eslint index.js"
   },
