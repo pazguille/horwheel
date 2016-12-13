@@ -12,12 +12,12 @@
   "dependencies": {},
   "devDependencies": {
     "browserify": "13.1.1",
-    "eslint": "3.10.2",
-    "eslint-config-airbnb-base": "10.0.1",
+    "eslint": "3.12.1",
+    "eslint-config-airbnb-base": "11.0.0",
     "eslint-plugin-import": "2.2.0",
     "istanbul": "0.4.5",
     "lint": "eslint",
-    "mocha": "2.1.0",
+    "mocha": "3.2.0",
     "uglifyjs": "2.4.10"
   },
   "keywords": [
