@@ -16,7 +16,6 @@
     "eslint-config-airbnb-base": "11.0.0",
     "eslint-plugin-import": "2.2.0",
     "istanbul": "0.4.5",
-    "lint": "eslint",
     "mocha": "3.2.0",
     "uglifyjs": "2.4.10"
   },
