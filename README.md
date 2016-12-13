@@ -38,9 +38,7 @@ horwheel(wrapper);
 - Firefox (OS X, Windows)
 - Opera (OS X, Windows)
 - Safari (OS X, Windows)
-- IE9
-- IE8
-- IE7
+- IE10+
 
 ## With :heart: by
 

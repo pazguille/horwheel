@@ -1,11 +1,13 @@
 /**
- * Privates
+ * Normalize wheel event
  */
-var bind = (window.addEventListener !== undefined) ? 'addEventListener' : 'attachEvent';
 var wheel = (window.onwheel !== undefined) ? 'wheel' :
               (window.onmousewheel !== undefined) ? 'mousewheel' :
                   (window.attachEvent) ? 'onmousewheel' : 'DOMMouseScroll';
 
+/**
+ * horizontalWheel
+ */
 function horizontalWheel(eve, el) {
   el.scrollLeft += (eve.deltaY !== undefined) ? eve.deltaY :
                       (eve.detail !== undefined && eve.detail !== 0) ? eve.detail :
@@ -22,7 +24,7 @@ function horwheel(node) {
     return;
   }
 
-  window.document[bind](wheel, function (eve) {
+  window.document.addEventListener(wheel, function (eve) {
     eve = eve || window.eve;
     if (eve.preventDefault) {
       eve.preventDefault();
