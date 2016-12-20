@@ -1,17 +1,12 @@
 /**
- * Normalize wheel event
+ * Change the scroll axis.
+ * @param {Node Event} [eve]
  */
-var wheel = (window.onwheel !== undefined) ? 'wheel' :
-              (window.onmousewheel !== undefined) ? 'mousewheel' :
-                  (window.attachEvent) ? 'onmousewheel' : 'DOMMouseScroll';
-
-/**
- * horizontalWheel
- */
-function horizontalWheel(eve, el) {
-  el.scrollLeft += (eve.deltaY !== undefined) ? eve.deltaY :
-                      (eve.detail !== undefined && eve.detail !== 0) ? eve.detail :
-                          -eve.wheelDelta;
+function horizontalWheel(eve) {
+  if (eve.preventDefault) {
+    eve.preventDefault();
+  }
+  this.scrollLeft += eve.deltaY;
 }
 
 /**
@@ -21,19 +16,10 @@ function horizontalWheel(eve, el) {
  */
 function horwheel(node) {
   if (node === undefined) {
-    return;
-  }
-
-  window.document.addEventListener(wheel, function (eve) {
-    eve = eve || window.eve;
-    if (eve.preventDefault) {
-      eve.preventDefault();
-    }
-    horizontalWheel(eve, node);
     return false;
-  }, false);
-
-  return el;
+  }
+  node.addEventListener('wheel', horizontalWheel, false);
+  return node;
 }
 
 /**
