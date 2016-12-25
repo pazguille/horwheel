@@ -1,7 +1,7 @@
 {
   "name": "horwheel",
   "main": "dist/horwheel.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "http://pazguille.github.io/horwheel/",
   "authors": [
     "Guille Paz <guille87paz@gmail.com>"

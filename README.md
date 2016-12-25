@@ -56,8 +56,8 @@ MIT license. Copyright © 2016.
 [npm-image]: https://img.shields.io/npm/v/horwheel.svg
 [lic-image]: https://img.shields.io/npm/l/horwheel.svg
 [npm-link]: https://npmjs.org/package/horwheel
-[deps-image]: https://img.shields.io/david/mango/horwheel.svg
-[deps-link]: https://david-dm.org/mango/horwheel
-[devdeps-image]: https://img.shields.io/david/dev/mango/horwheel.svg
-[devdeps-link]: https://david-dm.org/mango/horwheel#info=devDependencies
+[deps-image]: https://img.shields.io/david/pazguille/horwheel.svg
+[deps-link]: https://david-dm.org/pazguille/horwheel
+[devdeps-image]: https://img.shields.io/david/dev/pazguille/horwheel.svg
+[devdeps-link]: https://david-dm.org/pazguille/horwheel#info=devDependencies
 [dt-image]: https://img.shields.io/npm/dt/horwheel.svg

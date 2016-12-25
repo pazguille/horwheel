@@ -1,6 +1,6 @@
 {
   "name": "horwheel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scroll horizontally with mouse wheel",
   "author": "Guille Paz <guille87paz@gmail.com>",
   "scripts": {
